@@ -15,6 +15,7 @@ body {
 html {
     overflow-y: scroll;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* ====================================================== */
@@ -274,6 +275,13 @@ nav ul{
     }
 }
 @media (max-width:600px) {
+    nav {
+        background: #ffffff;
+        border-radius: 10px;
+        width: 95%;
+        margin-top: 10px;
+        height: 80px;
+    }
     .float img{
         width: 100%;
         margin: 0;
@@ -287,4 +295,8 @@ nav ul{
     #InformationPart{
         font-size: 12px;
     }
+}
+/* ================================================== */
+main{
+    overflow-x: hidden;
 }
